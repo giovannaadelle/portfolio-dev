@@ -23,24 +23,24 @@
         <!-- aplicar classe de estilo na <ul> não na <nav> -->
         <nav class="nav" id="navMenu">
           <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     
-      <main class="hero">
+      <main class="hero" id="inicio">
         <div class="hero-container">
           <h1>Olá, eu sou a Giovanna</h1>
           <p>Desenvolvedora Full Stack</p>
         </div>
       </main>
 
-   <section class="about">
+   <section class="about" id="sobre">
       <div class="about-container">
         <h3>Sobre mim</h3>
         <p>
@@ -68,17 +68,18 @@
     <section>
       <div class="courses-container">
         <h3>Cursos e bootcamps</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-          asperiores pariatur doloremque, sint quia explicabo hic numquam autem
-          et placeat unde ullam, aut commodi aspernatur? Reprehenderit dicta
-          itaque iure omnis.
-        </p>
-      </div>
+        <ul>
+          <li>Formação Dev Fullstack +PraTi (7 meses): Lógica de programação, Java/Spring, React, Git, MySQL/PostgreSQL, DevOps básico e Python para IA</li>
+          <li>Lógica de programação | TIC em Trilhas (24 h)</li>
+          <li>Versionamento de código | TIC em Trilhas (24 h)</li>
+          <li>Design para quem não é designer | TIC em Trilhas (24 h)</li>
+          <li>Photoshop | Suíte Criativa (60 h)</li>
+        </ul>
+        </div>
     </section>
 
-    <section class="projects">
-      <h3>Projetos desenvolvidos</h3>
+    <section class="projects" id="projetos">
+      <h3 class="projects-title">Projetos desenvolvidos</h3>
             <div class="projects-container">
           <div class="card">
           <div class="image-container">
@@ -113,17 +114,17 @@
             Website para expor projetos feito com HTML, CSS e JavaScript. Prototipado em Figma, possui layout responsivo, menu hambúguer e terá um sistema de slider para exibição dos projetos.
           </p>
           <a href="XXXXXXXXXXXX" class="project-button" target="_blank"
-          >Repositório</a>
+          >Acessar repositório</a>
         </div>
        
       </div>
     </section>
 
-    <footer>
+    <footer id="contato">
       <div class="footer-container">
         <div class="footer-text">
           <h3>Contato</h3>
-          <p>Estou aberta a oportunidades de trabalho para contribuir com a equipe de maneira harmônica e proativa.</p>
+          <p>Estou aberta a oportunidades de trabalho para contribuir com a equipe de maneira harmônica e proativa, focando em entregas ágeis e de qualidade.</p>
           <p>Vamos conversar?</p>
         </div>
     

@@ -101,6 +101,17 @@ body {
   z-index: 2;
 }
 
+.hero-container p {
+  font-size: 1.2rem;
+  z-index: 2;
+}
+
+
+.hero-container p:hover {
+  color: var(--secondary)
+}
+
+
 .hero-container {
   background-image: url(assets/background-image.jpg);
   background-size: cover;
@@ -163,6 +174,10 @@ body {
   text-align: left;
 }
 
+.courses-container li { 
+  margin-left: 20px;
+}
+
 .projects-container {
   padding: 20px;
   margin: auto;
@@ -172,9 +187,10 @@ body {
   margin-bottom: 10px;
 }
 
-.projects h3 {
-  padding: 20px;
+.projects-title  {
   margin: auto;
+  padding: 20px;
+  text-align: start;
 }
 
 .image-container {
@@ -196,8 +212,8 @@ body {
   border: 1px solid var(--secondary);
   border-radius: 5px;
   width: 90%
-  text-align: center;
   display: flex;
+  text-align:center;
   flex-direction: column;
 }
 
@@ -210,7 +226,6 @@ body {
   text-decoration: none;
   margin-top: auto;
   display: inline-block;
-  align-self: center;
   width: max-content;
 }
 
@@ -221,6 +236,7 @@ body {
 .project-content-container p {
   font-size: 14px;
   text-align: justify;
+  margin-bottom: 10px;
 }
 
 .footer-container {
