@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+      </style>
+  </head>
+  <body>
+
+    <div class="container">
+    <header>
+      <div class="header-container">
+
+        <button class="navToggle" id="nav-toggle" aria-label="Abrir menu">
+          ☰
+        </button>
+
+        <!-- aplicar classe de estilo na <ul> não na <nav> -->
+        <nav class="nav" id="navMenu">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    
+      <main class="hero">
+        <div class="hero-container">
+          <h1>Olá, eu sou a Giovanna</h1>
+          <p>Desenvolvedora Full Stack</p>
+        </div>
+      </main>
+
+   <section class="about">
+      <div class="about-container">
+        <h3>Sobre mim</h3>
+        <p>
+          Estudante de Análise e Desenvolvimento de Sistemas no Infnet.
+          Jornalista formada pela Unesp. Em transição de carreira desde 2024,
+          encontrei na programação uma oportunidade de dar vida a projetos
+          interativos e modernos.
+        </p>
+      </div>
+
+      <div class="skills-container">
+        <h3>Minhas habilidades</h3>
+        <div class="skills">
+          <div class="skills_skill">HTML</div>
+          <div class="skills_skill">CSS</div>
+          <div class="skills_skill">JavaScript</div>
+          <div class="skills_skill">React</div>
+          <div class="skills_skill">GIT</div>
+          <div class="skills_skill">Java</div>
+          <div class="skills_skill">Spring Boot</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="courses-container">
+        <h3>Cursos e bootcamps</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+          asperiores pariatur doloremque, sint quia explicabo hic numquam autem
+          et placeat unde ullam, aut commodi aspernatur? Reprehenderit dicta
+          itaque iure omnis.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h3>Projetos desenvolvidos</h3>
+            <div class="projects-container">
+          <div class="card">
+          <div class="image-container">
+            <img
+              src="assets/project1.png"
+              alt="software screenshot"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-content-container">
+            <h3>Florinda</h3>
+            <p>
+              Landing page fictícia de floricultura feita com HTML, CSS e JavaScript. A aplicação possui layout responsivo, menu hambúrguer funcional, formulário de contato e também utiliza recursos como grid e flexbox.
+            </p>
+            <a href="XXXXXXXXXXXX" class="project-button" target="_blank"
+            >Acessar repositório</a>          
+          </div>
+        
+        </div>
+
+        <div class=card>
+        <div class="image-container">
+          <img
+            src="assets/project2.jpg"
+            alt="software screenshot"
+            loading="lazy"
+          />
+        </div>
+        <div class="project-content-container">
+          <h3>Portfólio</h3>
+          <p>
+            Website para expor projetos feito com HTML, CSS e JavaScript. Prototipado em Figma, possui layout responsivo, menu hambúguer e terá um sistema de slider para exibição dos projetos.
+          </p>
+          <a href="XXXXXXXXXXXX" class="project-button" target="_blank"
+          >Repositório</a>
+        </div>
+       
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-text">
+          <h3>Contato</h3>
+          <p>Estou aberta a oportunidades de trabalho para contribuir com a equipe de maneira harmônica e proativa.</p>
+          <p>Vamos conversar?</p>
+        </div>
+    
+        <div class="icons-container">
+          <a href="https://w.app/jrajqw" target="_blank" rel="noopener">
+            <img src="assets/whatsapp.png" alt="WhatsApp" class="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/giovannadelle/" target="_blank" rel="noopener">
+            <img src="assets/linkedin.png" alt="LinkedIn" class="icon" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
